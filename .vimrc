@@ -214,6 +214,7 @@ set t_vb=
 
 set tm=500
 
+set autoindent
 
 set nu
 
@@ -740,6 +741,8 @@ let Tlist_Inc_Winwidth=0
 
 nmap tl :Tlist<cr>
 
+nmap hs :split<cr>
+nmap rs :vsplit<cr>
 
 set cscopequickfix=s-,c-,d-,i-,t-,e-
 
