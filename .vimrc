@@ -741,7 +741,7 @@ let Tlist_Inc_Winwidth=0
 
 nmap tl :Tlist<cr>
 
-nmap hs :split<cr>
+nmap ts :split<cr>
 nmap rs :vsplit<cr>
 
 set cscopequickfix=s-,c-,d-,i-,t-,e-
